@@ -1,7 +1,7 @@
 
 ## `Requerimientos Placetopay-front`
 
-- Implementacion en react js
+- Implementación en react js
 
 - Instalar node.js en caso de no tenerlo instalado.
 
