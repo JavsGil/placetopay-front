@@ -75,7 +75,7 @@ const StateOrder = () => {
                             <Alert.Heading>Order #: <b>{id}</b></Alert.Heading>
                             <hr />
                             <p className="mb-0">
-                                <b><h4>Payed successfull...</h4></b>
+                                <b><h4>PAYED SUCCESSFUL...</h4></b>
                             </p>
                         </Alert>
                     </div>
