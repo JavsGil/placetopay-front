@@ -35,9 +35,9 @@ const StateOrder = () => {
                 currency: 'COP',
                 total: 11000
             };
-      
-            const  {data} = await API.post(`/create-payment-order`, datos);
-            
+
+            const { data } = await API.post(`/create-payment-order`, datos);
+
             if (data?.processUrl) {
                 window.open(data.processUrl, '_blank');
             } else {
@@ -60,7 +60,7 @@ const StateOrder = () => {
                 requestId: requestId,
             };
             const { data } = await API.post(`/info-transaction`, datos);
-            console.log(data);
+            
         } catch (error) {
             console.warn(error);
         }
